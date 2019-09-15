@@ -1,0 +1,43 @@
+PETUNJUK PENGGUNAAN PROGRAM
+
+dibuat oleh : Muhammad Guruh Ajinugroho
+dalam rangka menyelesaikan sertifikasi pelatihan Junior Web Programming
+BPPTIK 2019
+
+jalankan XAMPP/WAMPP
+
+buatlah database di phpmyadmin bernama kampus
+
+import file kampus.sql kedalam database yang sudah dibuat.
+
+jalankan dengan mengetik :
+localhost/transkrip
+
+untuk coba fungsi admin :
+NIM : 11111111
+Pass : admin
+
+untuk coba fungsi user
+NIM : 54416878
+Pass : 123
+
+--REGISTRASI--
+untuk membuat mahasiswa baru, klik "Buat mahasiswa baru
+anda dapat membuat mahasiswa baru jika mahasiswa tersebut
+sudah terdaftar di kampus tersebut (untuk mendaftarkan mahasiswa
+anda bisa login sebagai admin).
+
+mahasiswa baru berhasil dibuat jika sudah muncul tulisan
+"perintah berhasil",
+
+jika muncul "Kesalahan database!", tandanya data sudah ada.
+jika muncul "Perintah gagal!", berarti terjadi kesalahan input, dapat mencoba
+membuat lagi
+
+--LOGIN SEBAGAI MAHASISWA--
+dapat melihat & mencetak IPK
+
+--LOGIN SEBAGAI ADMIN--
+-Dapat memanajemen mahasiswa
+-Dapat memanajemen mata kuliah
+-Dapat memanajemen transkrip nilai mahasiswa
